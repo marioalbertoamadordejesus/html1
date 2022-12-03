@@ -1,0 +1,66 @@
+body{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 1rem;
+}
+h1{
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    font-size: 50px;
+}
+p{
+    margin: 1rem;
+    margin-top: 0;
+}
+strong{
+    font-weight: bolder;
+}
+.container-lg,.container-x1,.container-xx1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+@media(min-width:1400px){
+    .container-lg, .container-x1, .container-xx1{
+        max-width: 1320px;
+    }
+}
+.header_top{
+    border: 1px solid hsla(0, 0%, 66% ,0.5);
+    box-shadow: 0 1.5px 1.5px hsla(210, 3%, 89%, 0.3);
+    padding-bottom: 0.9rem;
+    padding-top: 0.9rem;
+}
+@media(max-width:479.98px){
+    .header_top{
+        padding-bottom: 0.75rem;
+        padding-top: 0.75rem;
+    }
+   
+}
+.header_bottom{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+}
+.navbar a{
+    color: rgb(114, 184, 120);
+    font-weight: 500;
+    padding: 0 0.25rem;
+
+}
+.navbar a:not(:hover){
+    text-decoration: none;
+}
+.hero{
+    background: url(https://gobierno.cdmx.gob.mx/wp-content/uploads/2022/03/EscuelasCodigo2-e1648076214256.jpg) 50% / cover no-repeat;
+    margin-bottom: 1.25rem;
+}
+.hero_background{
+    background: url(https://gobierno.cdmx.gob.mx/wp-content/uploads/2022/03/EscuelasCodigo2-e1648076214256.jpg) 50% / cover no-repeat;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
